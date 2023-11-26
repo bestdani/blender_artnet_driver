@@ -1,7 +1,7 @@
 https://github.com/bestdani/blender_artnet_driver/assets/11302762/e384f518-2edb-45a5-a993-a66f0134c589
 
 
-Adds DMX512 support to blender using the Art-Net protocol. The received values can be used in driver expressions or in custom python code anywhere in blender!
+Adds DMX512 support to [Blender](https://www.blender.org) using the [Art-Net](https://artisticlicence.com) protocol. The received values can be used in driver expressions or in custom python code anywhere in blender!
 
 # Usage
 
