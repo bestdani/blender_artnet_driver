@@ -1,3 +1,6 @@
+https://github.com/bestdani/blender_artnet_driver/assets/11302762/e384f518-2edb-45a5-a993-a66f0134c589
+
+
 Adds DMX512 support to blender using the Art-Net protocol. The received values can be used in driver expressions or in custom python code anywhere in blender!
 
 # Usage
@@ -19,8 +22,10 @@ timeline to trigger blender to update the driver expressions.
 
 For example to control the intensity of a light with your first dmx channel
 between 0W and 300W you can use `#dmxf(0) * 300` in its power field.
+![example_light](https://github.com/bestdani/blender_artnet_driver/assets/11302762/67cc6ff7-8665-49c2-a771-7030cf01496b)
 
 To move an object up and down by 5m with your second dmx channel use `#(2*dmxf(1) - 1) * 5` in its z-location field.
+![example_suzanne](https://github.com/bestdani/blender_artnet_driver/assets/11302762/e5f997cc-26c9-4274-89de-806acd105b4b)
 
 To rotate an object around the z axis from 0° to 255° with your third dmx channel use `#dmx(2)` in its z-rotation field.
 
