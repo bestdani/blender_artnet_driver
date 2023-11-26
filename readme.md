@@ -22,3 +22,14 @@ To move an object up and down by 5m with your second dmx channel use `#(2*dmxf(1
 
 To rotate an object around the z axis from 0° to 255° with your third dmx channel use `#dmx(2)` in its z-rotation field.
 
+
+## For Python Scripters
+You can also use the driver namespace function to use the received values in your advanced python scripts:
+
+```python
+>>> bpy.app.driver_namespace['dmx'](0)
+149
+
+>>> bpy.app.driver_namespace['dmxf'](0)
+0.5843137254901961
+```
