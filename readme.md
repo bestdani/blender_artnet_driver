@@ -1,3 +1,5 @@
+Adds DMX512 support to blender using the Art-Net protocol. The received values can be used in driver expressions or in custom python code anywhere in blender!
+
 # Usage
 
 After installing and activating the Addon, you can activate the Art-Net
